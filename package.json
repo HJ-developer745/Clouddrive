@@ -7,7 +7,8 @@
   "scripts": {
     "start": "node server.js",
     "dev": "node --watch server.js",
-    "seed": "node src/utils/seed.js"
+    "seed": "node src/utils/seed.js",
+    "build": "webpack"
   },
   "dependencies": {
     "archiver": "^7.0.1",
@@ -25,5 +26,9 @@
     "pdfjs-dist": "^4.10.38",
     "sharp": "^0.33.5",
     "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "webpack": "^5.99.9",
+    "webpack-cli": "^6.0.1"
   }
 }
